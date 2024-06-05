@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(21, 5, 5) ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    overflow: hidden;
+}
+.sidebar {
+    background-color: #5cb85c;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #5cb85c;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover {
+    background-color: #4cae4c;
+}
+.todoListElem {
+    margin-top: 20px;
+}
+.todoListElem div {
+    background-color: #e9ecef;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todoListElem div button {
+    border: none;
+    background-color: #d9534f;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.todoListElem div button:hover {
+    background-color: #c9302c;
+}
+
